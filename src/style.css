@@ -1,0 +1,56 @@
+div> .postContainer{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    margin: 1.5rem;
+    padding: 0.3rem 0.3rem;
+    border-radius: 8px;
+}
+
+div>.postContainer>.flexDiv>.postHead>.postName{
+    margin-bottom: 0;
+}
+
+div>.postContainer>.flexDiv>.postHead>.postDate{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: small;
+    color: #BABABC;
+}
+
+div>.postContainer>.postHead{
+    padding: 0.1rem 0.5rem;
+    margin-top: 0;
+}
+
+div>.postContainer>.post{
+    margin: 0.5rem;
+}
+
+div>.flexDiv{
+    display: flex;
+    gap: 0.5rem;
+    margin: 0.5rem 0.5rem;
+}
+
+div>.postContainer>.flexDiv>.profileImg{
+    border-radius: 50%;
+    align-self: center;
+}
+
+div>.postContainer>.postFooter{
+    display: flex;
+    justify-content: space-around;
+}
+
+div>.postContainer>.postFooter>.buttons{
+    color: #59626B;
+    background-color: #F2F2F2;
+    border-radius: 8px;
+    padding: 0.3rem 1rem;
+    margin: 0 1rem;
+    flex-grow: 1;
+    text-align: center;
+}
+
+div>.postContainer>.postImage{
+    width: 100%;
+}
