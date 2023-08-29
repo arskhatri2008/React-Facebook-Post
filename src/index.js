@@ -7,6 +7,8 @@ import car1 from "./images/car1.jpg"
 import postImage1 from "./images/postImage1.jpg"
 import profImg from "./images/ProfImg.png"
 import postImage2 from "./images/moon.jpg"
+import profImage2 from "./images/dev.jpeg"
+import postImage3 from "./images/webDev.jpeg"
 
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
@@ -73,14 +75,11 @@ ReactDOM.render(
   postImage={postImage2}
   />
   <Post 
-  name="Arsalan Ahmed"
+  name="Muhammad Ali"
   date={new Date().toDateString()}
-  post="Before planning a trip, we tend to do a lot of research on both Google and social media. Therefore, the demand for reading other people's travel reviews is high. If you’re a globetrotter and a freelancer, consider this type of outlet. You can start with an insider’s guide on places to explore near you, offering reasons to visit your very own hometown, region or country.
-  We recommend honing in on a travel niche, whether it’s a type of hotel (luxury hotels, hostels, etc.), a kind of trip (backpacking, camping, etc.) or a geographical area. For instance, the blogger behind Tales Of Israel shares inspiring guides focusing only on the Holy Land. This makes her an expert and a trustworthy source to readers.
-  Dave Grohl said, No one is you, and that is your power. It’s true that almost all corners of the world have been written about, but they have not been written about by you. People will experience your destinations through your eyes. Help them get to know you and the reasons you like traveling with an intriguing About Me page.
-  On top of the recognition, some successful bloggers get free hotel stays or even sponsored travel experiences and can also generate income through ads on their site. "
-  profileImage={car1}
-  postImage={postImage1}
+  post="Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).[1] Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. A more comprehensive list of tasks to which Web development commonly refers, may include Web engineering, Web design, Web content development, client liaison, client-side/server-side scripting, Web server and network security configuration, and e-commerce development."
+  profileImage={profImage2}
+  postImage={postImage3}
   />
 </div>
 
